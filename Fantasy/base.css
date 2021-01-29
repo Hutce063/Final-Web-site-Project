@@ -1,0 +1,61 @@
+/* Color, Fonts, General Styles */
+/* To do: 
+    Add Background color, Add Text Color to teh body element */
+:root {
+    --bg-color: #A9CEE8;
+    --text-color: #8c2937ff;
+    --header-color: #5A0061;
+    --link: #37b6d4ff;
+    --link-hover: #81D3E6;
+    --link-visted: #3F2B61;
+    --shade1-1: #070261;
+    --shade1-2: #0C03AD;
+    --shade1-3: #0F04E0;
+    --shade1-4: #5149E6;
+    --shade2-1: #5A0061;
+    --shade2-2: #A200AD;
+    --shade2-3: #D100E0;
+    --shade2-4: #DB45E6;
+    --shade3-1: #006128;
+    --shade3-2: #00AD48;
+    --shade3-3: #00E05D;
+    --shade3-4: #45E688;
+    --shade4-1: #574228;
+    --shade4-2: #5E4B32;
+    --shade4-3: #A8814D;
+    --shade4-4: #D6A463;
+}
+body {
+    background-color:var(--bg-color);
+    color: var(--text-color);
+    font-size: 120%;
+    font-family: 'Lora', serif;
+    text-align: left;
+}
+h1, h2, h3 {
+    color: var(--header-color);
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+footer {
+    color: var(--shade4-1);
+    text-align: left;
+}
+main {
+    width: 90%;
+    max-width: 50rem;
+    margin: 1em auto
+}
+figure {
+    margin: 0;
+}
+figure.box-right {
+    width: 45%;
+    max-width: 25rem;
+    float: right;
+}
+figure.box-left {
+    width: 45%;
+    max-width: 25rem;
+    float: left;
+}

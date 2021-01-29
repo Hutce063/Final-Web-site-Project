@@ -1,0 +1,23 @@
+ul.nav{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: var(--shade3-1);
+}
+.nav li {
+    border: 1px solid var(--shade4-1);
+}
+.nav a {
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: var(--shade4-3);
+    background-color: var(--shade1-4);
+}
+@media screen and (min-width: 960px) {
+    /* Make the nav bar horizontal */
+    ul.nav {
+        flex-direction: row;   
+        float: right;
+    }
+}
